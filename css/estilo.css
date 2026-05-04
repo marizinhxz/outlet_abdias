@@ -1,0 +1,12 @@
+* {
+    box-sizing: content-box;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    border: solid 5px rgba(0,0,0,0.5);
+    margin: 10% auto;
+    padding: 70px;
+}
