@@ -11,6 +11,11 @@
     padding: 70px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .produtos img {
     width: 180px;
     height: 200;
