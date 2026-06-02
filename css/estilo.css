@@ -1,7 +1,3 @@
-* {
-    box-sizing: content-box;
-}
-
 .box{
     width: 400px;
     height: 400px;
@@ -12,7 +8,11 @@
 }
 
 .container {
-    display: flex;
+
+}
+
+.produtos{
+    display:flex;
     justify-content: center;
 }
 
@@ -23,5 +23,15 @@
 }
 
 .produtos img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
+
+.titulo_prod{
+    font-weight: bold;
+    font-family: Arial;
+    color:dimgrey;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
