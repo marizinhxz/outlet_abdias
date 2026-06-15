@@ -1,7 +1,7 @@
 .box{
     width: 400px;
     height: 400px;
-    background-color: bisque;
+    background-color: rgb(242, 210, 172);
     border: solid 5px rgba(0,0,0,0.5);
     margin: 10% auto;
     padding: 70px;
@@ -44,6 +44,27 @@
     padding: 25px;
     display: flex;
     justify-content: center;
+}
+
+.linha_prod {
+    flex: 1
+}
+
+.btn_soma {
+display:flex;
+justify-content: center;
+
+}
+
+.qtd_prod {
+    display:flex;
+    justify-content: center;
+}
+
+.btn_subtrai {
+    display:flex;
+    justify-content: center;
+    
 }
 
 
