@@ -1,6 +1,3 @@
-
-//* é a porta de entrada da aplicação
-
 const express = require("express");
 
 const app = require("./src");
